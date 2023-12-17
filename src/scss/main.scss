@@ -1,0 +1,10 @@
+@import'_normolize.scss';
+@import '_vars.scss';
+@import '../fonts/fonts.scss';
+@import '_settings.scss';
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
