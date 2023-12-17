@@ -4,7 +4,4 @@
 @import '_settings.scss';
 
 
-.container{
-    display: flex;
-    justify-content: space-between;
-}
+@import 'parts/header.scss';

@@ -79,7 +79,7 @@ const watcher = () =>{
     watch(['src/**/*.html'], htmlInclude);
     watch(['src/scss/**/*.scss'], styles);
     watch(['src/js/**/*.js'], scripts);
-    watch(['src/img/**/*,{png, jpeg, jpg}'], images)
+    watch(['src/img/**/*.{png, jpeg, jpg}'], images)
 }
 
 const toProd = (done) => {

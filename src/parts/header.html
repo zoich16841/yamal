@@ -1,5 +1,34 @@
 <header class="header">
-    <div class="container">
-        Header
+    <div class="container header__container">
+        <picture>
+          <source srcset="../img/logo.avif" type="image/avif">
+          <source srcset="../img/logo.webp" type="image/webp">
+          <img loading="lazy" src="../img/logo.png" class="logo__image" width="84" height="30" alt="Логотип сайта">
+        </picture>
+        <div class="header__right">
+          <div class="header__location location">
+            <picture>
+              <source srcset="../img/gps.avif" type="image/avif">
+              <source srcset="../img/gps.webp" type="image/webp">
+              <img loading="lazy" src="../img/gps.png" class="location__image" width="20" height="20" alt="Логотип gps">
+            </picture>
+            <div class="location__city">Санкт-Петербург</div>
+        </div>
+        <div class="header__menu menu">
+            <button class="menu__btn btn-reset"></button>
+            <div>Меню</div>
+        </div>
+        <div class="header__special special">
+            <div class="special__lang">Eng</div>
+            <div class="special__right">
+                <picture>
+                  <source srcset="../img/eye.avif" type="image/avif">
+                  <source srcset="../img/eye.webp" type="image/webp">
+                  <img loading="lazy" src="../img/eye.png" class="special__image" width="20" height="20" alt="Логотип версии для слабовидящих">
+                </picture>
+                <a href="#" class="special__link">Версия для слабовидящих</a>
+            </div>
+        </div>
+        </div>
     </div>
 </header>
